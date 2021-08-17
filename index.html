@@ -51,7 +51,32 @@
         }
 
 
-        @media screen and (max-width: 630px) {}
+        @media only screen and (min-width:960px) {
+            .email__container {
+                width: 800px;
+            }
+        }
+
+        /* MIDSIZES */
+        @media only screen and (max-width:960px) {
+            .email__container {
+                width: 600px;
+            }
+        }
+
+        /* MOBILE */
+        @media only screen and (max-width:600px) {
+            .email__container {
+                width: 100%
+            }
+        }
+
+        /* MOBILE */
+        @media only screen and (max-width:375px) {
+            .email__container {
+                width: 100%
+            }
+        }
     </style>
 </head>
 
@@ -72,7 +97,7 @@
                                 style="padding: 25px; background-color: #F5F5F5; background: #F5F5F5;">
                                 <tr>
                                     <td width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
-                                        <img src="./assets/img/microcenter-logo.png" style="width: 200px;" width="200">
+                                        <img src="https://i.postimg.cc/Njhkf1F2/microcenter-logo.png" style="width: 200px;" width="200">
                                     </td>
                                 </tr>
                             </table>
@@ -231,12 +256,12 @@
                             <!-- ============================================= Start of Sale Title Information Section ==================================================================== -->
                             <table class="thank-you" width="100%" align="center" cellspacing="0" cellpadding="0"
                                 border="0"
-                                style="padding: 25px; background-color: #ffffff; background: #ffffff; padding: 0; margin: 0;">
+                                style="padding: 25px; background-color: #ffffff; background: #ffffff; padding: 0; margin: 0; width: 100%;">
                                 <tr>
                                     <td width="100%" align="center" cellspacing="0" cellpadding="0" border="0"
-                                        style="padding: 0; margin: 0;">
+                                        style="padding: 0; margin: 0; width: 100%;">
                                         <h1
-                                            style="padding: 0; margin: 0; font-size: 24px; font-weight: 500; margin: 30px 5px 20px 5px;">
+                                            style="padding: 0; margin: 0; font-size: 24px; font-weight: 500; margin: 30px 0px 20px 0px; width: 100%;">
                                             Your Sale Information
                                         </h1>
                                     </td>
@@ -380,26 +405,20 @@
                                         style="padding: 0; margin: 0;">
                                         <!-- ============================================= ==================================================================== -->
                                         <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0"
-                                            style="padding: 0; margin: 0; background-color: #ffffff; background: #ffffff;  color: #000000;">
+                                            style="padding: 0; margin: 0; background-color: #ffffff; background: #ffffff;  color: #000000; width: 100%;">
                                             <tr>
-                                                <td width="30%" align="center" cellspacing="0" cellpadding="0"
-                                                    border="0" style="padding: 0; margin: 0; padding: 10px;">
+                                                <td width="50%" align="center" cellspacing="0" cellpadding="0"
+                                                    border="0" style="padding: 0; margin: 0; padding: 10px; width: 50%;">
                                                     <p align="left"
                                                         style="text-align:left; padding: 0; margin: 0; font-size: 14px; font-weight: 400; color: #000000;">
                                                         Subtotal
                                                     </p>
                                                 </td>
-                                                <td width="40%" align="left" cellspacing="0" cellpadding="0" border="0"
-                                                    style="padding: 0; margin: 0; padding: 10px;">
+                                                
+                                                <td width="50%" align="center" cellspacing="0" cellpadding="0"
+                                                    border="0" style="padding: 0; margin: 0; padding: 10px;width: 50%;">
                                                     <p align="right"
-                                                        style="text-align:left; padding: 0; margin: 0; font-size: 14px; font-weight: 400; color: #000000;">
-
-                                                    </p>
-                                                </td>
-                                                <td width="30%" align="center" cellspacing="0" cellpadding="0"
-                                                    border="0" style="padding: 0; margin: 0; padding: 10px;">
-                                                    <p align="left"
-                                                        style="text-align:left; padding: 0; margin: 0; font-size: 14px; font-weight: 400; color: #000000;">
+                                                        style="text-align:right; padding: 0; margin: 0; font-size: 14px; font-weight: 400; color: #000000;">
                                                         $289.97
                                                     </p>
                                                 </td>
@@ -408,54 +427,42 @@
 
                                         <!-- ============================================= ==================================================================== -->
                                         <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0"
-                                            style="padding: 0; margin: 0; background-color: #ffffff; background: #ffffff;  color: #000000;">
-                                            <tr>
-                                                <td width="30%" align="center" cellspacing="0" cellpadding="0"
-                                                    border="0" style="padding: 0; margin: 0; padding: 10px;">
-                                                    <p align="left"
-                                                        style="text-align:left; padding: 0; margin: 0; font-size: 14px; font-weight: 400; color: #000000;">
-                                                        State Tax
-                                                    </p>
-                                                </td>
-                                                <td width="40%" align="left" cellspacing="0" cellpadding="0" border="0"
-                                                    style="padding: 0; margin: 0; padding: 10px;">
-                                                    <p align="right"
-                                                        style="text-align:left; padding: 0; margin: 0; font-size: 14px; font-weight: 400; color: #000000;">
-
-                                                    </p>
-                                                </td>
-                                                <td width="30%" align="center" cellspacing="0" cellpadding="0"
-                                                    border="0" style="padding: 0; margin: 0; padding: 10px;">
-                                                    <p align="left"
-                                                        style="text-align:left; padding: 0; margin: 0; font-size: 14px; font-weight: 400; color: #000000;">
-                                                        $8.40
-                                                    </p>
-                                                </td>
-                                            </tr>
-                                        </table>
+                                        style="padding: 0; margin: 0; background-color: #ffffff; background: #ffffff;  color: #000000; width: 100%;">
+                                        <tr>
+                                            <td width="50%" align="center" cellspacing="0" cellpadding="0"
+                                                border="0" style="padding: 0; margin: 0; padding: 10px; width: 50%;">
+                                                <p align="left"
+                                                    style="text-align:left; padding: 0; margin: 0; font-size: 14px; font-weight: 400; color: #000000;">
+                                                    State Tax
+                                                </p>
+                                            </td>
+                                            
+                                            <td width="50%" align="center" cellspacing="0" cellpadding="0"
+                                                border="0" style="padding: 0; margin: 0; padding: 10px;width: 50%;">
+                                                <p align="right"
+                                                    style="text-align:right; padding: 0; margin: 0; font-size: 14px; font-weight: 400; color: #000000;">
+                                                    $8.40
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
 
                                         <!-- ============================================= ==================================================================== -->
                                         <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0"
-                                            style="padding: 0; margin: 0; background-color: #ffffff; background: #ffffff;  color: #000000; border-top: 2px solid #000000;">
+                                            style="padding: 0; margin: 0; background-color: #ffffff; background: #ffffff;  color: #000000; border-top: 2px solid #000000; width: 100%;">
                                             <tr>
-                                                <td width="30%" align="center" cellspacing="0" cellpadding="0"
+                                                <td width="50%"  cellspacing="0" cellpadding="0" align="left"
                                                     border="0" style="padding: 0; margin: 0; padding: 10px;">
                                                     <p align="left"
-                                                        style="text-align:left; padding: 0; margin: 0; font-size: 14px; font-weight: 600; color: #000000;">
+                                                        style="text-align: left; padding: 0; margin: 0; font-size: 14px; font-weight: 600; color: #000000; width: 50%;">
                                                         Sale Total
                                                     </p>
                                                 </td>
-                                                <td width="40%" align="left" cellspacing="0" cellpadding="0" border="0"
-                                                    style="padding: 0; margin: 0; padding: 10px;">
-                                                    <p align="right"
-                                                        style="text-align:left; padding: 0; margin: 0; font-size: 14px; font-weight: 400; color: #000000;">
-
-                                                    </p>
-                                                </td>
-                                                <td width="30%" align="center" cellspacing="0" cellpadding="0"
+                                                
+                                                <td width="50%" cellspacing="0" cellpadding="0" align="right"
                                                     border="0" style="padding: 0; margin: 0; padding: 10px;">
-                                                    <p align="left"
-                                                        style="text-align:left; padding: 0; margin: 0; font-size: 14px; font-weight: 600; color: #000000;">
+                                                    <p align="right"
+                                                        style="text-align: right; padding: 0; margin: 0; font-size: 14px; font-weight: 600; color: #000000; width: 50%;">
                                                         $289.97
                                                     </p>
                                                 </td>
@@ -510,13 +517,13 @@
                                             <tr>
                                                 <td align="center" width="33%" style="width: 100%; text-align: center;">
                                                     <a href="https://www.youtube.com/user/microcenter" style="text-decoration: none;">
-                                                         <img src="/assets/img/youtube-icon.png" style="margin: 0 10px;">
+                                                         <img src="https://i.postimg.cc/mgQNct1X/youtube-icon.png" style="margin: 0 5px;">
                                                     </a>
                                                     <a href="https://twitter.com/Microcenter" style="text-decoration: none;">
-                                                        <img src="/assets/img/twitter-icon.png" style="margin: 0 5px;">
+                                                        <img src="https://i.postimg.cc/g0my3mvY/twitter-icon.png" style="margin: 0 5px;">
                                                     </a>
                                                     <a href="https://www.facebook.com/MicroCenter" style="text-decoration: none;">
-                                                       <img src="/assets/img/facebook-icon.png" style="margin: 0 10px;"> 
+                                                       <img src="https://i.postimg.cc/8PfbSypV/facebook-icon.pngs" style="margin: 0 5px;"> 
                                                     </a>
                                                     
                                                 </td>
